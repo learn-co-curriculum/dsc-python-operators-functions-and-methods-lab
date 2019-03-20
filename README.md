@@ -119,10 +119,10 @@ In the next section, do not use either `==` or `!=` operators
 In this next section, use the identity and logical operators to get the desired output as you did in the examples above using the comparison operators.
 
 > **Remember:**
-the **logical operators** are: `and`, `or`, & `not` and
+the **logcial operators** are: `and`, `or`, & `not` and
 the **identity operators** are: `is` & `is not`
 
-Use logical operators for this section.
+Use logical opertors for this section
 
 
 ```python
@@ -135,7 +135,7 @@ Use logical operators for this section.
 # logical_compare7 = False [COMPARISON] 2 # False
 ```
 
-Use identity operators for this section.
+Use identity opertors for this section
 
 
 ```python
@@ -149,5 +149,5 @@ Use identity operators for this section.
 # identity_compare6 = [1,3,4] [COMPARISON] [1,2,3] # False
 ```
 
-# Summary
+## Summary
 Great work! After all that, there's nothing we can't compare, well I guess apples and oranges might still off the table. We practiced using comparison, logical, and identity operators in Python to compare elements of the same and different datatypes and or values. Going forward, there will be plenty of instances where we will need to compare elements. So, it is important to have a good understanding of how each of these operators works. Don't worry, as with all concepts in programming, the more we work with something the better we understand it. 
