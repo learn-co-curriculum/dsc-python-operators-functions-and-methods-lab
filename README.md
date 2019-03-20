@@ -178,7 +178,7 @@ print(list_compare, list_compare2, list_compare3, list_compare4, list_compare5)
 ```
 
     True True False True False
-    
+
 
 ### Practicing Identity and Logical Operators
 
@@ -217,7 +217,7 @@ print(identity_compare, identity_compare2, identity_compare3, identity_compare4,
 ```
 
     False True True True False False
-    
 
-# Summary
+
+## Summary
 Great work! After all that, there's nothing we can't compare, well I guess apples and oranges might still off the table. We practiced using comparison, logical, and identity operators in Python to compare elements of the same and different datatypes and or values. Going forward, there will be plenty of instances where we will need to compare elements. So, it is important to have a good understanding of how each of these operators works. Don't worry, as with all concepts in programming, the more we work with something the better we understand it. 
