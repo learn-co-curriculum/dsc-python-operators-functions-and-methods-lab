@@ -154,21 +154,33 @@ Once uncommented, you can check the output to see if your comparisons match the 
 ```python
 boolean_compare = True != True # False
 boolean_compare2 = False == True # False
+print(boolean_compare, boolean_compare2)
 ```
+
+    False False
+
 
 
 ```python
 number_compare = 10 == 10 # True
 number_compare2 = -20 <= 30 # True
 number_compare3 = 4 > 5 # False
+print(number_compare, number_compare2, number_compare3)
 ```
+
+    True True False
+
 
 
 ```python
 string_compare = "stacy" > "STACY" # True
 string_compare2 = "hey i love python!" == "hi love python" # False
 string_compare3 = "this string is bigger than the other" > "that is true" # True
+print(string_compare, string_compare2, string_compare3)
 ```
+
+    True False True
+
 
 In the next section, do not use either `==` or `!=` operators
 
@@ -204,7 +216,12 @@ logical_compare4 = True and 2 # 2
 logical_compare5 = 2 or 3 # 2
 logical_compare6 = not True # False
 logical_compare7 = False and 2 # False
+print(logical_compare, logical_compare2, logical_compare3, logical_compare4,
+      logical_compare5, logical_compare6, logical_compare7)
 ```
+
+    [] True 0 2 2 False False
+
 
 Use identity opertors for this section
 
