@@ -91,6 +91,7 @@ Once uncommented, you can check the output to see if your comparisons match the 
 ```python
 # boolean_compare = True [COMPARISON] True # False
 # boolean_compare2 = False [COMPARISON] True # False
+# print(boolean_compare, boolean_compare2)
 ```
 
 
@@ -98,6 +99,7 @@ Once uncommented, you can check the output to see if your comparisons match the 
 # number_compare = 10 [COMPARISON] 10 # True
 # number_compare2 = -20 [COMPARISON] 30 # True
 # number_compare3 = 4 [COMPARISON] 5 # False
+# print(number_compare, number_compare2, number_compare3)
 ```
 
 
@@ -105,6 +107,7 @@ Once uncommented, you can check the output to see if your comparisons match the 
 # string_compare = "stacy" [COMPARISON] "STACY" # True
 # string_compare2 = "hey i love python!" [COMPARISON] "hi love python" # False
 # string_compare3 = "this string is bigger than the other" [COMPARISON] "that is true" # True
+# print(string_compare, string_compare2, string_compare3)
 ```
 
 In the next section, do not use either `==` or `!=` operators
@@ -116,6 +119,7 @@ In the next section, do not use either `==` or `!=` operators
 # list_compare3 = [0,0,0] [COMPARISON] [0,0,3] # False
 # list_compare4 = [0,0,3,0] [COMPARISON] [0,0,3] # True
 # list_compare5 = [0,0,4,0] [COMPARISON] [0,0,3] # False
+# print(list_compare, list_compare2, list_compare3, list_compare4, list_compare5)
 ```
 
 ### Practicing Identity and Logical Operators
@@ -137,6 +141,8 @@ Use logical opertors for this section
 # logical_compare5 = 2 [COMPARISON] 3 # 2
 # logical_compare6 = [COMPARISON] True # False
 # logical_compare7 = False [COMPARISON] 2 # False
+# print(logical_compare, logical_compare2, logical_compare3, logical_compare4,
+#       logical_compare5, logical_compare6, logical_compare7)
 ```
 
 Use identity opertors for this section
@@ -151,6 +157,8 @@ Use identity opertors for this section
 # identity_compare4 = 9 [COMPARISON] 10 # True
 # identity_compare5 = "Same" [COMPARISON] "Same" # False
 # identity_compare6 = [1,3,4] [COMPARISON] [1,2,3] # False
+# print(identity_compare, identity_compare2, identity_compare3,
+#       identity_compare4, identity_compare5, identity_compare6)
 ```
 
 ## Summary
