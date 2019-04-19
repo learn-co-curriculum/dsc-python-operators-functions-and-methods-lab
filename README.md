@@ -2,9 +2,10 @@
 # Built-in Python Operators, Functions and Methods - Lab
 
 ## Introduction
-We've looked at some of the built-in methods, functions, and the operators that python provides us with. These are all very powerful tools we can (and will) use in our code. Below, we'll put these new tools to use to solve the tests in this lab.
+We've looked at some of the built-in methods, functions, and the operators that Python provides us with. These are all very powerful tools we can (and will) use in our code. Below, we'll put these new tools to use to solve the tests in this lab.
 
 ## Objectives
+You will be able to:
 * Use base Python methods like `.append()`, `.upper()` and `.capitalize()`
 * Understand (simply) and explain what built in Python methods are
 * Understand, explain and use some base Python functions like `len()`, `type()`, `sum()`, `max()` and `min()`
@@ -132,7 +133,11 @@ sum_of_numbers
 
 
 
-Uncomment out the code in each cell as you start working on them. For example, when you begin on the first two examples in cell one, remove the first `#` on each line. Then, use the correct comparison operator to get the desired output, which you will find in a second comment at the end of the line feel free to remove this comment as well or keep it. Finally, Replace the `[COMPARISON]`, with the correct operator. See the example below.
+Uncomment out the code in each cell as you start working on them. For example, when you begin on the first two examples in cell one, remove the first `#` on each line. 
+
+> **Note:** The `cmd+?` keyboard shortcut Comments or Uncomments a Given Line of Code!
+
+Then, use the correct comparison operator to get the desired output, which you will find in a second comment at the end of the line feel free to remove this comment as well or keep it. Finally, Replace the `[COMPARISON]`, with the correct operator. See the example below.
 
 ```python
 # boolean_compare = False [COMPARISON] True # True 
@@ -141,7 +146,7 @@ OR
 => boolean_compare = False != True
 ```
 
-Once uncommented, you can run the tests to see if your comparisons are working the way we would like them to be.
+Once uncommented, you can check the output to see if your comparisons match the answers provided in the ending comments.
 
 > **Remember** the comparison operators are: `==`, `!=`, `<`, `>`, `<=`, `>=`
 
@@ -185,10 +190,10 @@ print(list_compare, list_compare2, list_compare3, list_compare4, list_compare5)
 In this next section, use the identity and logical operators to get the desired output as you did in the examples above using the comparison operators.
 
 > **Remember:**
-the **logical operators** are: `and`, `or`, & `not` and
+the **logcial operators** are: `and`, `or`, & `not` and
 the **identity operators** are: `is` & `is not`
 
-Use logical operators for this section.
+Use logical opertors for this section
 
 
 ```python
@@ -201,7 +206,7 @@ logical_compare6 = not True # False
 logical_compare7 = False and 2 # False
 ```
 
-Use identity operators for this section.
+Use identity opertors for this section
 
 
 ```python
