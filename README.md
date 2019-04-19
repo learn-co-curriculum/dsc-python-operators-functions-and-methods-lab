@@ -70,7 +70,11 @@ sum_of_numbers = [1,2,3,5] # 11
 sum_of_numbers
 ```
 
-Uncomment out the code in each cell as you start working on them. For example, when you begin on the first two examples in cell one, remove the first `#` on each line. Then, use the correct comparison operator to get the desired output, which you will find in a second comment at the end of the line feel free to remove this comment as well or keep it. Finally, Replace the `[COMPARISON]`, with the correct operator. See the example below.
+Uncomment out the code in each cell as you start working on them. For example, when you begin on the first two examples in cell one, remove the first `#` on each line. 
+
+> **Note:** The `cmd+?` keyboard shortcut Comments or Uncomments a Given Line of Code!
+
+Then, use the correct comparison operator to get the desired output, which you will find in a second comment at the end of the line feel free to remove this comment as well or keep it. Finally, Replace the `[COMPARISON]`, with the correct operator. See the example below.
 
 ```python
 # boolean_compare = False [COMPARISON] True # True 
@@ -79,7 +83,7 @@ OR
 => boolean_compare = False != True
 ```
 
-Once uncommented, you can run the tests to see if your comparisons are working the way we would like them to be.
+Once uncommented, you can check the output to see if your comparisons match the answers provided in the ending comments.
 
 > **Remember** the comparison operators are: `==`, `!=`, `<`, `>`, `<=`, `>=`
 
