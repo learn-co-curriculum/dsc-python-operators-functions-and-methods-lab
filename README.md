@@ -202,7 +202,7 @@ print(list_compare, list_compare2, list_compare3, list_compare4, list_compare5)
 In this next section, use the identity and logical operators to get the desired output as you did in the examples above using the comparison operators.
 
 > **Remember:**
-the **logcial operators** are: `and`, `or`, & `not` and
+the **logical operators** are: `and`, `or`, & `not` and
 the **identity operators** are: `is` & `is not`
 
 Use logical opertors for this section
