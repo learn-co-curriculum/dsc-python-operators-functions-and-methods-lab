@@ -2,23 +2,20 @@
 # Built-in Python Operators, Functions and Methods - Lab
 
 ## Introduction
-We've looked at some of the built-in methods, functions, and the operators that Python provides us with. These are all very powerful tools we can (and will) use in our code. Below, we'll put these new tools to use to solve the tests in this lab.
+We've looked at some of the built-in methods, functions, and the operators in Python. These are all very powerful tools we can (and will) use in our code. Below, we'll put these new tools to use to solve the tests in this lab.
 
 ## Objectives
 You will be able to:
-* Use base Python methods like `.append()`, `.upper()` and `.capitalize()`
-* Understand (simply) and explain what built in Python methods are
-* Understand, explain and use some base Python functions like `len()`, `type()`, `sum()`, `max()` and `min()`
-* Understand and explain what functions are and why they’re useful
-* Understand, explain and use Python comparison, logical, and identity operators
+* Use methods and functions in standard Python from the last lesson
 
 ## Instructions
 
-Let's start out by using some built-in functions and methods. Employ the appropriate functions and methods to get the intended result.
+Let's start by using some built-in functions and methods. Employ the appropriate functions and methods to get the intended result.
 
 
 ```python
-yell_hello = "hello, there".upper() # "HELLO, THERE"
+# Desired output: "HELLO, THERE"
+yell_hello = "hello, there".upper() 
 yell_hello
 ```
 
@@ -31,7 +28,8 @@ yell_hello
 
 
 ```python
-whisper_hey = "PSST, HEY".lower() # "psst, hey"
+# Desired output: "psst, hey"
+whisper_hey = "PSST, HEY".lower() 
 whisper_hey
 ```
 
@@ -44,7 +42,8 @@ whisper_hey
 
 
 ```python
-flatiorn_mantra = "LEARN. LOVE. CODE.".title() # "Learn. Love. Code"
+# Desired output: "Learn. Love. Code"
+flatiorn_mantra = "LEARN. LOVE. CODE.".title() 
 flatiorn_mantra
 ```
 
@@ -57,7 +56,8 @@ flatiorn_mantra
 
 
 ```python
-type_string = type("i'm a string") # str
+# Desired output: str
+type_string = type("i'm a string") 
 type_string
 ```
 
@@ -70,7 +70,8 @@ type_string
 
 
 ```python
-type_list = type(["i'm", "a", "list"]) # list
+# Desired output: list
+type_list = type(["i'm", "a", "list"]) 
 type_list
 ```
 
@@ -83,7 +84,8 @@ type_list
 
 
 ```python
-lenght_of_list = len(["i'm", "a", "list"])# 3
+# Desired output: 3
+lenght_of_list = len(["i'm", "a", "list"])
 lenght_of_list
 ```
 
@@ -96,7 +98,8 @@ lenght_of_list
 
 
 ```python
-longest_word_in_list = max(["i'm", "a", "list"]) # "list"
+# Desired output: "list"
+longest_word_in_list = max(["i'm", "a", "list"]) 
 longest_word_in_list
 ```
 
@@ -109,7 +112,8 @@ longest_word_in_list
 
 
 ```python
-smallest_number = min([1, 3, 4, 78]) # 1
+# Desired output: 1
+smallest_number = min([1, 3, 4, 78]) 
 smallest_number
 ```
 
@@ -122,7 +126,8 @@ smallest_number
 
 
 ```python
-sum_of_numbers = sum([1,2,3,5]) # 11
+# Desired output: 11
+sum_of_numbers = sum([1,2,3,5]) 
 sum_of_numbers
 ```
 
@@ -133,11 +138,11 @@ sum_of_numbers
 
 
 
-Uncomment out the code in each cell as you start working on them. For example, when you begin on the first two examples in cell one, remove the first `#` on each line. 
+Uncomment the code in each cell as you start working on them. For example, when you begin working on the first cell, remove `#` at the start of each line.  
 
-> **Note:** The `cmd+?` keyboard shortcut Comments or Uncomments a Given Line of Code!
+> **Note:** The `cmd+?` keyboard shortcut comments or uncomments a given line of code!
 
-Then, use the correct comparison operator to get the desired output, which you will find in a second comment at the end of the line feel free to remove this comment as well or keep it. Finally, Replace the `[COMPARISON]`, with the correct operator. See the example below.
+Replace `[COMPARISON]`, with the correct comparison operator to get the desired output, which you will find as a comment at the end of each line. See the example below.
 
 ```python
 # boolean_compare = False [COMPARISON] True # True 
@@ -201,9 +206,7 @@ print(list_compare, list_compare2, list_compare3, list_compare4, list_compare5)
 
 In this next section, use the identity and logical operators to get the desired output as you did in the examples above using the comparison operators.
 
-> **Remember:**
-the **logical operators** are: `and`, `or`, & `not` and
-the **identity operators** are: `is` & `is not`
+> **Remember** the **logical operators** are `and`, `or`, & `not`; and the **identity operators** are `is` & `is not`
 
 Use logical opertors for this section
 
