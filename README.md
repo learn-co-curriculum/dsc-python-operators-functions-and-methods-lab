@@ -6,7 +6,11 @@ We've looked at some of the built-in methods, functions, and the operators in Py
 
 ## Objectives
 You will be able to:
-* Use methods and functions in standard Python from the last lesson
+* Use built-in Python functions
+* Use comparison operators to compare objects
+* Use logical operators to incorporate multiple conditions
+* Use identity operators to confirm the identity of an object
+
 
 ## Instructions
 
@@ -43,8 +47,8 @@ whisper_hey
 
 ```python
 # Desired output: "Learn. Love. Code"
-flatiorn_mantra = "LEARN. LOVE. CODE.".title() 
-flatiorn_mantra
+flatiron_mantra = "LEARN. LOVE. CODE.".title() 
+flatiron_mantra
 ```
 
 
