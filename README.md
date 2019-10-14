@@ -54,8 +54,8 @@ type_list
 
 ```python
 # Desired output: 3
-lenght_of_list = ["i'm", "a", "list"] 
-lenght_of_list
+length_of_list = ["i'm", "a", "list"] 
+length_of_list
 ```
 
 
