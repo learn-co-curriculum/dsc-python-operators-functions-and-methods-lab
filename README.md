@@ -1,12 +1,12 @@
 
-# Built-in Python Operators, Functions and Methods - Lab
+# Built-in Python Operators, Functions, and Methods - Lab
 
 ## Introduction
 We've looked at some of the built-in methods, functions, and the operators in Python. These are all very powerful tools we can (and will) use in our code. Below, we'll put these new tools to use to solve the tests in this lab.
 
 ## Objectives
-You will be able to:
-* Use built-in Python functions
+In this lab you will:
+* Use built-in Python functions and methods
 * Use comparison operators to compare objects
 * Use logical operators to incorporate multiple conditions
 * Use identity operators to confirm the identity of an object
@@ -123,11 +123,11 @@ In the next section, do not use either `==` or `!=` operators
 
 
 ```python
-# list_compare = [0,0,0,0] [COMPARISON] [0,0,0] # True
-# list_compare2 = [1,0,0] [COMPARISON] [0,0,0] # True
-# list_compare3 = [0,0,0] [COMPARISON] [0,0,3] # False
-# list_compare4 = [0,0,3,0] [COMPARISON] [0,0,3] # True
-# list_compare5 = [0,0,4,0] [COMPARISON] [0,0,3] # False
+# list_compare = [0, 0, 0, 0] [COMPARISON] [0, 0, 0] # True
+# list_compare2 = [1, 0, 0] [COMPARISON] [0, 0, 0] # True
+# list_compare3 = [0, 0, 0] [COMPARISON] [0, 0, 3] # False
+# list_compare4 = [0, 0, 3, 0] [COMPARISON] [0, 0, 3] # True
+# list_compare5 = [0, 0, 4, 0] [COMPARISON] [0, 0, 3] # False
 # print(list_compare, list_compare2, list_compare3, list_compare4, list_compare5)
 ```
 
@@ -141,13 +141,13 @@ Use logical opertors for this section
 
 
 ```python
-# logical_compare = 2 [COMPARISON] [] # []
-# logical_compare2 = [COMPARISON] [] # True
-# logical_compare3 = 0 [COMPARISON] [] # 0
-# logical_compare4 = True [COMPARISON] 2 # 2
-# logical_compare5 = 2 [COMPARISON] 3 # 2
-# logical_compare6 = [COMPARISON] True # False
-# logical_compare7 = False [COMPARISON] 2 # False
+# logical_compare = 2 [LOGICAL] [] # []
+# logical_compare2 = [LOGICAL] [] # True
+# logical_compare3 = 0 [LOGICAL] [] # 0
+# logical_compare4 = True [LOGICAL] 2 # 2
+# logical_compare5 = 2 [LOGICAL] 3 # 2
+# logical_compare6 = [LOGICAL] True # False
+# logical_compare7 = False [LOGICAL] 2 # False
 # print(logical_compare, logical_compare2, logical_compare3, logical_compare4,
 #       logical_compare5, logical_compare6, logical_compare7)
 ```
@@ -158,12 +158,12 @@ Use identity opertors for this section
 ```python
 # a = []
 # b = a
-# identity_compare = {} [COMPARISON] {} # False
-# identity_compare2 = a [COMPARISON] b # True
-# identity_compare3 = b [COMPARISON] [] # True
-# identity_compare4 = 9 [COMPARISON] 10 # True
-# identity_compare5 = "Same" [COMPARISON] "Same" # False
-# identity_compare6 = [1,3,4] [COMPARISON] [1,2,3] # False
+# identity_compare = {} [IDENTITY] {} # False
+# identity_compare2 = a [IDENTITY] b # True
+# identity_compare3 = b [IDENTITY] [] # True
+# identity_compare4 = 9 [IDENTITY] 10 # True
+# identity_compare5 = "Same" [IDENTITY] "Same" # False
+# identity_compare6 = [1,3,4] [IDENTITY] [1,2,3] # False
 # print(identity_compare, identity_compare2, identity_compare3,
 #       identity_compare4, identity_compare5, identity_compare6)
 ```
