@@ -1,12 +1,12 @@
 
-# Built-in Python Operators, Functions and Methods - Lab
+# Built-in Python Operators, Functions, and Methods - Lab
 
 ## Introduction
 We've looked at some of the built-in methods, functions, and the operators in Python. These are all very powerful tools we can (and will) use in our code. Below, we'll put these new tools to use to solve the tests in this lab.
 
 ## Objectives
-You will be able to:
-* Use built-in Python functions
+In this lab you will:
+* Use built-in Python functions and methods
 * Use comparison operators to compare objects
 * Use logical operators to incorporate multiple conditions
 * Use identity operators to confirm the identity of an object
@@ -131,7 +131,7 @@ smallest_number
 
 ```python
 # Desired output: 11
-sum_of_numbers = sum([1,2,3,5]) 
+sum_of_numbers = sum([1, 2, 3, 5]) 
 sum_of_numbers
 ```
 
@@ -195,11 +195,11 @@ In the next section, do not use either `==` or `!=` operators
 
 
 ```python
-list_compare = [0,0,0,0] != [0,0,0] # True
-list_compare2 = [1,0,0] > [0,0,0] # True
-list_compare3 = [0,0,0] > [0,0,3] # False
-list_compare4 = [0,0,3,0] > [0,0,3] # True
-list_compare5 = [0,0,4,0] < [0,0,3] # False
+list_compare = [0, 0, 0, 0] != [0, 0, 0] # True
+list_compare2 = [1, 0, 0] > [0, 0, 0] # True
+list_compare3 = [0, 0, 0] > [0, 0, 3] # False
+list_compare4 = [0, 0, 3, 0] > [0, 0, 3] # True
+list_compare5 = [0, 0, 4, 0] < [0, 0, 3] # False
 print(list_compare, list_compare2, list_compare3, list_compare4, list_compare5)
 ```
 
