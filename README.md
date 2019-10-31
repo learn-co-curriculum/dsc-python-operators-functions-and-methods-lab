@@ -137,7 +137,7 @@ In this next section, use the identity and logical operators to get the desired 
 
 > **Remember** the **logical operators** are `and`, `or`, & `not`; and the **identity operators** are `is` & `is not`
 
-Use logical opertors for this section
+Use logical operators for this section
 
 
 ```python
@@ -152,7 +152,7 @@ Use logical opertors for this section
 #       logical_compare5, logical_compare6, logical_compare7)
 ```
 
-Use identity opertors for this section
+Use identity operators for this section
 
 
 ```python
