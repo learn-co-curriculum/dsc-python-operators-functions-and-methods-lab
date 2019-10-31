@@ -321,7 +321,7 @@ In this next section, use the identity and logical operators to get the desired 
 
 > **Remember** the **logical operators** are `and`, `or`, & `not`; and the **identity operators** are `is` & `is not`
 
-Use logical opertors for this section
+Use logical operators for this section
 
 
 ```python
@@ -353,7 +353,7 @@ print(logical_compare, logical_compare2, logical_compare3, logical_compare4,
     [] True 0 2 2 False False
 
 
-Use identity opertors for this section
+Use identity operators for this section
 
 
 ```python
