@@ -1,11 +1,12 @@
-
 # Built-in Python Operators, Functions, and Methods - Lab
 
 ## Introduction
 We've looked at some of the built-in methods, functions, and the operators in Python. These are all very powerful tools we can (and will) use in our code. Below, we'll put these new tools to use to solve the tests in this lab.
 
 ## Objectives
+
 In this lab you will:
+
 * Use built-in Python functions and methods
 * Use comparison operators to compare objects
 * Use logical operators to incorporate multiple conditions
