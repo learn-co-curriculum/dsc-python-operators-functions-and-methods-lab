@@ -104,7 +104,7 @@ length_of_list
 
 ```python
 # Desired output: "list"
-longest_word_in_list = max(["i'm", "a", "list"]) 
+longest_word_in_list = max(["i'm", "a", "list"], key=len) 
 longest_word_in_list
 ```
 
